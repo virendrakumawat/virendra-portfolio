@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const projects = [
   {
-    image: '/src/assets/Projects/tasktracker.jpg',
+    image: '/assets/Projects/tasktracker.jpg',
     title: "Task Tracker App",
     description:
       "Built a production-grade Angular app to manage tasks across categories: Upcoming, In-Progress, Completed, and Deleted. Integrated NgRx for auth state, session handling, and added PWA support. Users can filter, edit, restore or permanently delete tasks. Modern UI with Tailwind CSS and Material UI.",
@@ -16,7 +16,7 @@ const projects = [
     description:
       "Created an AI-driven IT HelpBot integrated with Microsoft Teams. Built a dynamic front-end in Angular and connected to Azure Bot Service using Node.js. Improved employee support efficiency by 40% with automated ticket resolutions.",
     tech: ["Angular", "NodeJS", "Azure Bot", "Microsoft Teams"],
-    image: '/src/assets/Projects/IT-Hepbot.jpg',
+    image: '/assets/Projects/IT-Hepbot.jpg',
    
   },
   {
@@ -24,7 +24,7 @@ const projects = [
     description:
       "Built a full-featured eLearning portal where students can buy, manage and attend classes. Developed dashboards, chat integration, course subscription module, and teacher-student interactions using Angular + Laravel.",
     tech: ["Angular", "Laravel", "Tailwind", "GitHub"],
-    image: '/src/assets/Projects/riforma.PNG',
+    image: '/assets/Projects/riforma.PNG',
     
   },
   {
@@ -32,7 +32,7 @@ const projects = [
     description:
       "Developed a responsive web module for Scandinavian Airlines allowing in-flight WiFi purchase. Integrated with satellite APIs and payment modules. Worked closely with backend teams in Java & DevOps to ensure seamless user experience across devices.",
     tech: ["Angular", "Java", "Bootstrap", "Azure CI/CD"],
-    image: '/src/assets/Projects/sas-wifi.PNG',
+    image: '/assets/Projects/sas-wifi.PNG',
     
   },
 ];

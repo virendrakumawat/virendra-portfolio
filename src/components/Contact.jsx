@@ -29,8 +29,11 @@ const Contact = () => {
           <motion.div
             whileHover={{ scale: 1.05 }}
             className="flex items-center gap-4 text-gray-700 text-lg"
+            
           >
+            <a href="mailto:virendrakumawat@example.com?subject=Let's Connect&body=Hi Virendra, I saw your portfolio and wanted to reach out...">
             <FiMail className="text-2xl text-black" />
+            </a>
             <span>kumawatviren789@gmail.com</span>
           </motion.div>
 

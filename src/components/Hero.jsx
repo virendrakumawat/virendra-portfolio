@@ -29,7 +29,7 @@ const Hero = () => {
       <div className="flex items-center gap-6 mt-10 text-gray-600 text-sm">
         {/* Resume Download */}
         <a
-          href="/src/assets/resume/Virendra Kumawat Frontend Developer.pdf"
+          href="/assets/resume/Virendra Kumawat Frontend Developer.pdf"
           download={true}
           target="_blank"
           rel="noopener noreferrer"
@@ -47,9 +47,9 @@ const Hero = () => {
 
         {/* Company Logos */}
         <span className="flex items-center gap-4">
-          <img src="/src/assets/Projects/tcslogo.JPG" className="h-8 sm:h-10 object-contain" alt="TCS" />
-          <img src="/src/assets/Projects/rginfotech.jpeg" className="h-8 sm:h-10 object-contain" alt="Recursive" />
-          <img src="/src/assets/Projects/webinfo.png" className="h-5 sm:h-6 object-contain" alt="Web Info" />
+          <img src="/assets/Projects/tcslogo.JPG" className="h-8 sm:h-10 object-contain" alt="TCS" />
+          <img src="/assets/Projects/rginfotech.jpeg" className="h-8 sm:h-10 object-contain" alt="Recursive" />
+          <img src="/assets/Projects/webinfo.png" className="h-5 sm:h-6 object-contain" alt="Web Info" />
         </span>
       </div>
     </motion.section>

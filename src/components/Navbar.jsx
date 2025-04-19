@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 
+
 const Navbar = () => {
   const navItems = [
     { name: 'Work', to: 'projects' },
@@ -20,7 +21,7 @@ const Navbar = () => {
           className="flex items-center gap-3 cursor-pointer"
         >
           <img
-            src="/src/assets/profile1.jpg"
+            src="/assets/profile1.jpg"
             alt="Profile"
             className="w-10 h-10 rounded-full object-cover border-2 border-black"
           />

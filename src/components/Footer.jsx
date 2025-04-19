@@ -22,7 +22,7 @@ const Footer = () => {
             <FaLinkedin size={20} />
           </a>
           <a
-            href="https://linkedin.com/in/virendra-k"
+            href="mailto:virendrakumawat@example.com?subject=Let's Connect&body=Hi Virendra, I saw your portfolio and wanted to reach out..."
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-300 transition"
